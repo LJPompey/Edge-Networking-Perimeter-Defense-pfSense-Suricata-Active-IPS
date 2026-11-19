@@ -3,6 +3,8 @@
 ## Project Overview
 In modern enterprise environments, endpoint security alone is not enough—threats must be inspected and dropped at the network perimeter before they ever reach internal assets. For this phase of my **Project X** enterprise homelab, I architected and deployed a dedicated **pfSense CE (FreeBSD)** edge firewall to segment my internal Active Directory network from external traffic, then hardened it with **Suricata** running in active Intrusion Prevention System (IPS) mode.
 
+[Read the Full Technical Breakdown on Medium](https://medium.com/@pompey.lamont01/edge-networking-perimeter-defense-pfsense-suricata-active-ips-342ff1cf59a7?sharedUserId=pompey.lamont01)
+
 ### Objectives
 * Provision a dual-homed virtual firewall separating external WAN traffic from the internal `10.0.0.0/24` enterprise subnet.
 * Configure routing, DNS, and virtualization-specific NIC tuning to eliminate false-positive telemetry.
